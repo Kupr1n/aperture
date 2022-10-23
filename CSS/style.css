@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 29px 0;
+    background-color: #181818;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+#navbar {
+    list-style: none;
+    display: flex
+}
+.header_mrg{
+    margin-left: 32px
+}
+.header_mrg2{
+    margin-left: 56px
+}
+.header_mrg3{
+    margin-left: 51px;
+}
+.header_text1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+.header_text2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+.header_text3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none; padding: 9px 20px 13px;
+    background: #FFFFFF;
+    border-radius: 14px;margin-right: 20px
+}
+.section_style{
+    background-image: url("../images/bg_main.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+.section_width{
+    max-width: 580px
+}
+main section h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF
+}
+.section_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0
+}
+.section_text1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
