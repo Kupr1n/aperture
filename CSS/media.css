@@ -1,29 +1,72 @@
-@media screen and (max-width: 450px) {
+    @media screen and (max-width: 450px) {
     .banner{
         height: 60vh;
     }
     main section h1{
         font-size: 40px;
     }
+        .banner .fixed_location {
+            bottom: 20px;
+        }
 }
-@media screen and (max-width: 360px) {
-    .banner{
-        height: 40vh;
+    @media screen and (max-width: 280px){
+        .help{
+            min-height: 30vh;
+        }
+        .help .help_container a{
+            margin-bottom: 30px;
+        }
+    }
+@media screen and (max-width: 375px) {
+    .banner {
+        height: 45vh;
+    }
+    .sunset, .monstera, .star {
+        min-height: 40vh;
+    }
+    .help{
+        min-height: 40vh;
     }
     main section h1{
         font-size: 30px;
     }
+    .section_text{
+        font-size: 11px;
+        color: #FFFFFF;
+    }
     .section_text1{
         font-size: 11px;
-        padding-bottom: 20px;
+    }
+    .sunset .sub_container p{
+        font-size: 11px;
+    }
+    .monstera .sub_container p{
+        font-size: 11px;
+    }
+    .past .past_container p{
+        font-size: 11px;
+    }
+    .star .sub_container p{
+        font-size: 11px;
+    }
+    .help .help_container p{
+        font-size: 18px;
     }
     .past .past_container h4{
-        font-size: 30px
+        font-size: 25px;
+        padding-top: 30px;
     }
     .help .help_container h4{
-        font-size: 30px
+        font-size: 25px;
+        padding-top: 30px;
+
+    }
+    .fixed_location{
+        right: 10px;
+        bottom: 30px;
     }
 }
+
 @media screen and (max-width: 480px) {
     #navbar{
         flex-direction: column;
@@ -47,12 +90,14 @@
     }
     .past_img{
         flex-direction: column;
+        padding-bottom: 20px;
+
     }
     .past .past_container p{
         padding-bottom: 20px
     }
     .past .past_container a{
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
 }
 @media screen and (max-width: 900px) {
