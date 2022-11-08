@@ -1,0 +1,62 @@
+@media screen and (max-width: 450px) {
+    .banner{
+        height: 60vh;
+    }
+    main section h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .banner{
+        height: 40vh;
+    }
+    main section h1{
+        font-size: 30px;
+    }
+    .section_text1{
+        font-size: 11px;
+        padding-bottom: 20px;
+    }
+    .past .past_container h4{
+        font-size: 30px
+    }
+    .help .help_container h4{
+        font-size: 30px
+    }
+}
+@media screen and (max-width: 480px) {
+    #navbar{
+        flex-direction: column;
+    }
+    header .d_flex{
+    justify-content: space-evenly
+    }
+}
+@media screen and (max-width: 540px) {
+    .header_text3{
+        margin-right: 8px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header_mrg3{
+        margin-left: 20px;
+    }
+    .header_text1, .header_text2, .header_text3{
+        font-size: 9px;
+    }
+    .past_img{
+        flex-direction: column;
+    }
+    .past .past_container p{
+        padding-bottom: 20px
+    }
+    .past .past_container a{
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header_mrg, .header_mrg2, .header_mrg3 {
+        margin-left: 8px;
+    }
+}
