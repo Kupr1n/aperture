@@ -205,11 +205,13 @@ main section h1{
     background-color: black;
     background-size: cover;
     min-height: 500px;
+
 }
 .past_container{
     max-width: 1200px;
     text-align: center;
     margin: auto;
+    padding: 113px;
 }
 .past .past_container h4{
     font-family: 'Poppins', sans-serif;
@@ -219,8 +221,8 @@ main section h1{
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
-    padding-bottom: 15px;
-    padding-top: 130px;
+    margin-bottom: 15px;
+
 }
 .past .past_container p{
     font-family: 'Poppins', sans-serif;
@@ -230,7 +232,7 @@ main section h1{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-    padding-bottom: 82px;
+    margin-bottom: 82px;
 }
 .past_img{
     display: flex;
