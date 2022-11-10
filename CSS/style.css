@@ -224,7 +224,7 @@ main section h1{
     margin-bottom: 15px;
 
 }
-.past .past_container p{
+.past .past_container p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -233,6 +233,21 @@ main section h1{
     text-align: center;
     color: #C0C0C0;
     margin-bottom: 82px;
+}
+.owl-stage{
+    align-items: center;
+    display: flex;
+}
+.owl-item{
+    text-align: center;
+}
+.past .past_container a{
+    max-width: 128px;
+    display: inline-block;
+}
+.owl-nav .owl-prev{
+    background-color: brown;
+
 }
 .past_img{
     display: flex;
