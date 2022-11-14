@@ -1,4 +1,3 @@
-$
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
@@ -16,3 +15,6 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+$( function() {
+    $( "#accordion" ).accordion();
+} );

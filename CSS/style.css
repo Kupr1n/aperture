@@ -247,7 +247,6 @@ main section h1{
 }
 .owl-nav .owl-prev{
     background-color: brown;
-
 }
 .past_img{
     display: flex;
@@ -340,4 +339,80 @@ main section h1{
     height: 32px;
     border-radius: 13px;
     margin-right: 7px;
+}
+.faq{
+    background-color: #181818;
+    padding: 70px 0;
+}
+.faq .container{
+    display: flex;
+    justify-content: space-between;
+}
+.faq .text{
+    max-width: 500px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.faq .accordion{
+    max-width: 700px;
+}
+.faq .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #202939;
+    margin-bottom: 50px;
+}
+.faq .text p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #697586;
+}
+.faq .ui-accordion .ui-accordion-header{
+    background: #FFFFFF;
+    border: 1px solid #E3E8EF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 23px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #202939;
+    margin-bottom: 16px;
+}
+.faq .ui-accordion-header.ui-state-active{
+    margin-bottom: 0;
+    border-radius: 8px 8px 0 0;
+}
+.ui-accordion .ui-accordion-content{
+    margin-bottom: 16px;
+    border-radius: 0 0 8px 8px ;
+}
+.faq .ui-accordion .ui-icon{
+    background-image: none;
+    background-position: 0;
+    width: 32px;
+    height: 48px;
+    text-indent: 0;
+    position: absolute;
+    right: 25px;
+    top: 26px;
+}
+.faq .ui-accordion .ui-icon:before{
+    font-weight: 900;
+    font-font: "Font Awesome 6 Free";
+    content: "\2b";
+    font-size: 32px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.faq .ui-accordion-header.ui-state-active .ui-icon{
+    transform: rotate(360deg);
 }
