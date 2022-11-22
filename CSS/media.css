@@ -78,6 +78,82 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .tools .position_bg{
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+    .tools .item{
+        margin-left: 100px;
+    }
+    .faq .container{
+        flex-direction: column;
+    }
+    .faq .text{
+        margin-left: 100px;
+    }
+    .faq .text p{
+        padding-bottom: 20px;
+    }
+    .cd-logo {
+        float: left;
+        margin-top: 28px; }
+    .cd-3d-nav-trigger {
+        position: relative;
+        float: right;
+        height: 45px;
+        width: 45px;
+        /* replace text with background image */
+        overflow: hidden;
+        text-indent: 100%;
+        white-space: nowrap;
+        color: transparent; }
+    .cd-3d-nav-trigger span,
+    .cd-3d-nav-trigger span::before,
+    .cd-3d-nav-trigger span::after {
+        /* hamburger icon in CSS */
+        position: absolute;
+        width: 28px;
+        height: 3px;
+        background-color: #FFF;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden; }
+    .cd-3d-nav-trigger span {
+        /* this is the central line */
+        top: 21px;
+        left: 8px;
+        -webkit-transition: background 0.2s 0.5s;
+        -moz-transition: background 0.2s 0.5s;
+        transition: background 0.2s 0.5s; }
+    .cd-3d-nav-trigger span::before, .cd-3d-nav-trigger span:after {
+        /* these are the upper and lower lines */
+        content: '';
+        left: 0;
+        -webkit-transition: -webkit-transform 0.2s 0.5s;
+        -moz-transition: -moz-transform 0.2s 0.5s;
+        transition: transform 0.2s 0.5s; }
+    .cd-3d-nav-trigger span::before {
+        bottom: 8px; }
+    .cd-3d-nav-trigger span::after {
+        top: 8px; }
+    .nav-is-visible .cd-3d-nav-trigger span {
+        /* hide line in the center */
+        background-color: rgba(255, 255, 255, 0); }
+    .nav-is-visible .cd-3d-nav-trigger span::before, .nav-is-visible .cd-3d-nav-trigger span::after {
+        /* keep visible other 2 lines */
+        background-color: white; }
+    .nav-is-visible .cd-3d-nav-trigger span::before {
+        -webkit-transform: translateY(8px) rotate(-45deg);
+        -moz-transform: translateY(8px) rotate(-45deg);
+        -ms-transform: translateY(8px) rotate(-45deg);
+        -o-transform: translateY(8px) rotate(-45deg);
+        transform: translateY(8px) rotate(-45deg); }
+    .nav-is-visible .cd-3d-nav-trigger span::after {
+        -webkit-transform: translateY(-8px) rotate(45deg);
+        -moz-transform: translateY(-8px) rotate(45deg);
+        -ms-transform: translateY(-8px) rotate(45deg);
+        -o-transform: translateY(-8px) rotate(45deg);
+        transform: translateY(-8px) rotate(45deg); }
     .cd-3d-nav-trigger{
         display: inline-block;
     }
@@ -86,11 +162,11 @@
     }
     .header_text1, .header_text2, .header_text3{
         font-size: 9px;
+        padding: 0;
     }
     .past_img{
         flex-direction: column;
         padding-bottom: 20px;
-
     }
     .past .past_container p{
         padding-bottom: 20px
@@ -119,6 +195,7 @@
         -webkit-transition: -webkit-transform 0.5s 0s, visibility 0s 0.5s;
         -moz-transition: -moz-transform 0.5s 0s, visibility 0s 0.5s;
         transition: transform 0.5s 0s, visibility 0s 0.5s; }
+
     .cd-3d-nav-container.nav-is-visible {
         visibility: visible;
         -webkit-transform: translateY(0);

@@ -447,62 +447,7 @@ main section h1{
     -ms-transform: translateY(80px);
     -o-transform: translateY(80px);
     transform: translateY(80px); }
-.cd-3d-nav-trigger {
-    position: relative;
-    float: right;
-    height: 45px;
-    width: 45px;
-    overflow: hidden;
-    text-indent: 100%;
-    white-space: nowrap;
-    color: transparent;
-}
-.cd-3d-nav-trigger span,
-.cd-3d-nav-trigger span::before,
-.cd-3d-nav-trigger span::after {
-    /* hamburger icon in CSS */
-    position: absolute;
-    width: 28px;
-    height: 3px;
-    background-color: #FFF;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
-.cd-3d-nav-trigger span {
-    /* this is the central line */
-    top: 21px;
-    left: 8px;
-    -webkit-transition: background 0.2s 0.5s;
-    -moz-transition: background 0.2s 0.5s;
-    transition: background 0.2s 0.5s; }
-.cd-3d-nav-trigger span::before, .cd-3d-nav-trigger span:after {
-    /* these are the upper and lower lines */
-    content: '';
-    left: 0;
-    -webkit-transition: -webkit-transform 0.2s 0.5s;
-    -moz-transition: -moz-transform 0.2s 0.5s;
-    transition: transform 0.2s 0.5s; }
-.cd-3d-nav-trigger span::before {
-    bottom: 8px; }
-.cd-3d-nav-trigger span::after {
-    top: 8px; }
-.nav-is-visible .cd-3d-nav-trigger span {
-    /* hide line in the center */
-    background-color: rgba(255, 255, 255, 0); }
-.nav-is-visible .cd-3d-nav-trigger span::before, .nav-is-visible .cd-3d-nav-trigger span::after {
-    /* keep visible other 2 lines */
-    background-color: white; }
-.nav-is-visible .cd-3d-nav-trigger span::before {
-    -webkit-transform: translateY(8px) rotate(-45deg);
-    -moz-transform: translateY(8px) rotate(-45deg);
-    -ms-transform: translateY(8px) rotate(-45deg);
-    -o-transform: translateY(8px) rotate(-45deg);
-    transform: translateY(8px) rotate(-45deg); }
-.nav-is-visible .cd-3d-nav-trigger span::after {
-    -webkit-transform: translateY(-8px) rotate(45deg);
-    -moz-transform: translateY(-8px) rotate(45deg);
-    -ms-transform: translateY(-8px) rotate(45deg);
-    -o-transform: translateY(-8px) rotate(45deg);
-    transform: translateY(-8px) rotate(45deg); }
+
 .cd-marker {
     /* line at the bottom of nav selected item */
     position: absolute;
@@ -649,7 +594,7 @@ main.nav-is-visible {
     margin-bottom: 15px;
 }
 .tools{
-    background-color: #181818;
+    background-color: #000000;
     min-height: 540px;
     position: relative;
 }
@@ -687,6 +632,8 @@ main.nav-is-visible {
     font-size: 28px;
     line-height: 32px;
     color: #FFFFFF;
+    margin-top: 6px;
+    margin-bottom: 14px;
 }
 .tools .container p{
     font-family: 'Poppins', sans-serif;
@@ -695,4 +642,6 @@ main.nav-is-visible {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-right: 106px;
 }
