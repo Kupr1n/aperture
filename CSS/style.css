@@ -6,7 +6,6 @@ header{
     padding: 29px 0;
     background-color: #181818;
     box-sizing: border-box;
-
 }
 body{
     background-color: #181818;
@@ -74,6 +73,9 @@ body{
     position: relative;
     padding-bottom: 71px;
 }
+.banner h1{
+    margin-bottom: 18px;
+}
 .fixed_location{
     position: absolute;
     right: 40px;
@@ -131,7 +133,7 @@ main section h1{
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #C0C0C0
+    color: #C0C0C0;
 }
 .section_text1{
     font-family: 'Poppins', sans-serif;
@@ -379,7 +381,7 @@ main section h1{
 .faq .ui-accordion .ui-accordion-header{
     background: #FFFFFF;
     border: 1px solid #E3E8EF;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     padding: 23px 25px;
     font-family: 'Poppins', sans-serif;
@@ -423,7 +425,7 @@ main section h1{
 
 
 /* ---Main Components ---- */
-.cd-header {
+.cd-header{
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
     transition: transform 0.5s;
@@ -434,7 +436,7 @@ main section h1{
     -o-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;}
 .cd-header:after {
     content: "";
     display: table;
@@ -454,7 +456,6 @@ main section h1{
     text-indent: 100%;
     white-space: nowrap;
     color: transparent;
-    display: none;
 }
 .cd-3d-nav-trigger span,
 .cd-3d-nav-trigger span::before,
@@ -502,38 +503,6 @@ main section h1{
     -ms-transform: translateY(-8px) rotate(45deg);
     -o-transform: translateY(-8px) rotate(45deg);
     transform: translateY(-8px) rotate(45deg); }
-@media only screen and (min-width: 768px) {
-    .cd-header.nav-is-visible {
-        -webkit-transform: translateY(170px);
-        -moz-transform: translateY(170px);
-        -ms-transform: translateY(170px);
-        -o-transform: translateY(170px);
-        transform: translateY(170px); } }
-@media only screen and (min-width: 768px) {
-    .cd-3d-nav-container {
-        height: 170px; } }
-@media only screen and (min-width: 768px) {
-    .cd-3d-nav a {
-        padding: 7.6em 1em 0;
-        color: #ffffff;
-        font-size: 1.3rem;
-        font-weight: 600;
-        text-align: center;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        /* truncate text with ellipsis if too long */
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis; }
-    .cd-3d-nav a::before {
-        top: 4.4em;
-        left: 50%;
-        right: auto;
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        transform: translateX(-50%); } }
 .cd-marker {
     /* line at the bottom of nav selected item */
     position: absolute;
@@ -594,7 +563,7 @@ main section h1{
 .color-5 {
     color: #77cd91; }
 
-main {
+main{
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
     transition: transform 0.5s;
@@ -605,22 +574,13 @@ main {
     -o-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;}
 main.nav-is-visible {
     -webkit-transform: translateY(80px);
     -moz-transform: translateY(80px);
     -ms-transform: translateY(80px);
     -o-transform: translateY(80px);
     transform: translateY(80px); }
-@media only screen and (min-width: 768px) {
-    main.nav-is-visible {
-        -webkit-transform: translateY(170px);
-        -moz-transform: translateY(170px);
-        -ms-transform: translateY(170px);
-        -o-transform: translateY(170px);
-        transform: translateY(170px);
-    }
-}
 .what_we_do{
     background-color: #000000;
     padding-top: 112px;
